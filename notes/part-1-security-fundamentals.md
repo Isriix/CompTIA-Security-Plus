@@ -133,3 +133,38 @@ Key steps in conducting a gap analysis include:
 2. Gathering data on the organisation’s current state.
 3. Analysing the data to identify where current performance falls short.
 4. Developing a plan to bridge the identified gaps.
+
+
+---
+
+## Deception Technologies: Honeypots and Related Tools
+
+Honeypots and their variants are designed to **attract, detect and study malicious activity** in a controlled environment without putting production systems at risk.
+
+### Honeypot
+
+A honeypot is a decoy system designed to attract attackers and monitor their activity. It often mimics a vulnerable service or host and helps identify attack patterns and automated tools.
+
+> Typically targets automated or opportunistic attackers (e.g., bots scanning IP ranges).
+
+### Honeynet
+
+A honeynet extends the honeypot concept by using a full network of decoy systems. It presents a more realistic environment for attackers to interact with, allowing deeper analysis of tactics, techniques and procedures (TTPs).
+
+> Built with multiple interconnected honeypots to simulate a full network infrastructure.
+
+### Honey Files
+
+Honey files are **planted documents** containing fake but tempting information—such as `passwords.txt` or `finance_report.xlsx`. These files are monitored so that any unauthorised access triggers alerts.
+
+> Think of them as bait files—opening or copying them triggers alarms, like a digital bear trap.
+
+### Honey Tokens
+
+Honey tokens are **traceable data elements** (e.g., fake credentials, document markers, or embedded tags) placed within a honeypot or legitimate environment. If the token appears elsewhere (e.g., leaked online), it indicates a data breach and possibly reveals the source of the compromise.
+
+> Used to **track malicious actors** and detect leaks by observing the use of unique planted data.
+
+---
+
+> These deception technologies support early detection, attack analysis and intelligence gathering without endangering real assets.
