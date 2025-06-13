@@ -168,3 +168,68 @@ Honey tokens are **traceable data elements** (e.g., fake credentials, document m
 ---
 
 > These deception technologies support early detection, attack analysis and intelligence gathering without endangering real assets.
+
+
+# Change Management
+
+Change management introduces a structured process for applying changes within large or sensitive environments, reducing risks and ensuring continuity.
+
+---
+
+## Why Change Management Matters
+
+- Changes in corporate environments can affect hundreds or thousands of systems.
+- Without control, informal updates may break applications or introduce vulnerabilities.
+- Formal processes maintain system availability, communicate changes, and prevent errors.
+
+---
+
+## Change Control Process
+
+1. **Request submission**  
+   Complete a change control form outlining the reason, scope, timing, and systems affected.
+
+2. **Impact assessment & risk analysis**  
+   The change control board evaluates risks (e.g. downtime, business impact) and balances benefits and drawbacks.
+
+3. **Approval or denial**  
+   The board decides based on risk vs benefit.
+
+4. **Scheduling**  
+   Define exact date/time for implementation, accounting for business cycles and maintenance windows (e.g. off‑hours or weekends).
+
+5. **Implementation & testing**  
+   Apply the change in production then verify with the system or application owner. Confirm functionality post‑change.
+
+6. **Backout plan**  
+   Always prepare a rollback plan (e.g. uninstall patch or restore from backup) and test it in a sandbox before production deployment.
+
+7. **Review & documentation**  
+   Record outcomes, update change logs, and adjust future process iterations.
+
+---
+
+## Key Roles
+
+- **Change requester or owner**  
+  Initiates the request, defines scope and liaises with the team.
+
+- **Change control board (CCB)**  
+  A group responsible for assessing and approving changes.
+
+- **Stakeholders**  
+  Individuals or teams affected by the change (e.g. accounting, shipping, operations).
+
+---
+
+## Considerations
+
+- Evaluate the **risk of not implementing** a change (e.g. leaving vulnerabilities unpatched).
+- Schedule changes outside peak periods (e.g. avoid retail holidays, business-critical windows).
+- Ensure full **backups** are available before making changes.
+- Maintain and improve the change process over time as organisational needs evolve.
+
+---
+
+> Change management is essential in all firms. Documented and enforced policies ensure no-one makes unauthorised changes and that necessary updates occur safely.
+
