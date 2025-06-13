@@ -233,3 +233,59 @@ Change management introduces a structured process for applying changes within la
 
 > Change management is essential in all firms. Documented and enforced policies ensure no-one makes unauthorised changes and that necessary updates occur safely.
 
+# Technical Change Management
+
+### Allow/Deny List.
+Allow List - Very restrictive, nothing runs unless it has been approved.
+
+Deny List - Run any application except those on the deny list. 
+
+---
+
+## Purpose and Context
+
+Technical change management ensures changes to production systems (e.g. patches, configuration adjustments, updates) are applied in a controlled manner to reduce risk, downtime and unintended side effects.
+
+---
+
+## Key Process Steps
+
+1. **Pre‑Change Preparation**  
+   - Replicate the production environment in a test or sandbox  
+   - Perform full backups  
+   - Review patch notes or change documentation
+
+2. **Implementation in Test Environment**  
+   - Apply updates or configurations first in a non‑production environment  
+   - Test thoroughly, verify functionality and performance
+
+3. **Scheduling & Approval**  
+   - Plan changes during maintenance windows or off‑peak hours  
+   - Issue notifications to relevant stakeholders  
+   - Confirm approvals from system owners or change control board
+
+4. **Deployment to Production**  
+   - Apply change following the tested procedure  
+   - Monitor system performance immediately after deployment
+
+5. **Back‑out Plan**  
+   - Ensure a rollback plan exists (e.g. uninstall patch, restore backup)  
+   - Verify back‑out works in test before deployment
+
+6. **Post‑Change Review**  
+   - Confirm the change achieved its intended outcome  
+   - Document date, time, results, and any issues encountered  
+   - Update configuration management records or CMDB
+
+---
+
+## Benefits
+
+- Improves system stability and reliability  
+- Reduces unexpected failures or outages  
+- Establishes accountability and traceability  
+- Supports regulatory and audit compliance
+
+---
+
+
