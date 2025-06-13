@@ -23,7 +23,7 @@ I'm using this to reinforce concepts, track progress, and share helpful content 
 
 ## Notes by Domain
 
-- [Part 1 – Security Fundamentals](./part-1-security-fundamentals.md)  
+- [Part 1 – Security Fundamentals](/notes/part-1-security-fundamentals.md)  
   Overview of control categories, types, and the control matrix.
 
 ---
