@@ -1,4 +1,4 @@
-# Part 1 – Security Fundamentals
+# Part 1 
 
 ---
 
