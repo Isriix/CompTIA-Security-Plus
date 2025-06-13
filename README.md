@@ -5,16 +5,16 @@ I'm using this to reinforce concepts, track progress, and share helpful content 
 
 ---
 
-## 📅 Study Timeline  
+## Study Timeline  
 - Started: `April 2025`  
 - Exam Date: `July 2025`
 
 ---
 
-## 🧠 Topics Covered
+## Topics Covered
 
-- [x] **1. Threats, Attacks & Vulnerabilities**
-- [x] **2. Architecture & Design**
+- [ ] **1. Threats, Attacks & Vulnerabilities**
+- [ ] **2. Architecture & Design**
 - [ ] **3. Implementation**
 - [ ] **4. Operations & Incident Response**
 - [ ] **5. Governance, Risk & Compliance**
@@ -28,7 +28,7 @@ I'm using this to reinforce concepts, track progress, and share helpful content 
 
 ---
 
-## 📚 Resources I'm Using
+## Resources I'm Using
 
 - CompTIA Security+ Official Study Guide (SY0-701)
 - Professor Messer’s YouTube Playlist
@@ -36,11 +36,11 @@ I'm using this to reinforce concepts, track progress, and share helpful content 
 
 ---
 
-## 🧪 Practice & Labs
+## Practice & Labs
 
 I'll also include hands-on labs and TryHackMe rooms related to Security+ topics.
 
 ---
 
-## ✍️ License  
+## License  
 All notes are original and intended for educational use. Feel free to fork and contribute if you're studying too.
