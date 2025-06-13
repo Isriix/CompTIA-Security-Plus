@@ -23,11 +23,7 @@ I'm using this to reinforce concepts, track progress, and share helpful content 
 
 ## 🗂️ Notes by Domain
 
-- [`1. Threats & Vulnerabilities`](./notes/1-threats.md)
-- [`2. Architecture & Design`](./notes/2-architecture.md)
-- [`3. Implementation`](./notes/3-implementation.md)
-- [`4. Operations & IR`](./notes/4-operations.md)
-- [`5. GRC`](./notes/5-grc.md)
+- 
 
 ---
 
