@@ -145,7 +145,7 @@ Honeypots and their variants are designed to **attract, detect and study malicio
 
 A honeypot is a decoy system designed to attract attackers and monitor their activity. It often mimics a vulnerable service or host and helps identify attack patterns and automated tools.
 
-> Typically targets automated or opportunistic attackers (e.g., bots scanning IP ranges).
+> Typically targets automated or opportunistic attackers, mostly machines (e.g., bots scanning IP ranges).
 
 ### Honeynet
 
@@ -260,7 +260,7 @@ Technical change management ensures changes to production systems (e.g. patches,
    - Test thoroughly, verify functionality and performance
 
 3. **Scheduling & Approval**  
-   - Plan changes during maintenance windows or off‑peak hours  
+   - Plan changes during maintenance windows or offpeak hours  
    - Issue notifications to relevant stakeholders  
    - Confirm approvals from system owners or change control board
 
