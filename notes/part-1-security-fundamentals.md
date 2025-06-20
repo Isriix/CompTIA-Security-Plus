@@ -279,4 +279,107 @@ Technical change management ensures changes to production systems (e.g. patches,
 
 ---
 
+# Public Key Infrastructure (PKI) 
+
+---
+
+## 1. What is PKI?
+- **Public Key Infrastructure (PKI)** is an ecosystem of policies, procedures, and systems that manage encryption keys and digital certificates.
+- It enables secure electronic transfer of information using:
+  - *Asymmetric encryption* (public/private keypairs)
+  - *Digital certificates* (binding identities to keys)
+
+---
+
+## 2. Core Components of PKI
+1. **Certificate Authority (CA)**
+   - Issues and signs digital certificates.
+   - Types:
+     - *Root CA* – top-level trust anchor.
+     - *Intermediate CA* – delegated cert issuers under a root.
+
+2. **Registration Authority (RA)**
+   - Acts as verifier of identity before CA issues certs.
+   - Receives certificate requests, authenticates, forwards to CA.
+
+3. **Certificate Database & Store**
+   - **Database**: internal repository tracking certificate records (issued, revoked).
+   - **Certificate Store**: where certificates are installed for use.
+
+4. **Certificate Revocation List (CRL) / OCSP**
+   - Lists certificates revoked before expiry.
+   - CRL: periodic download.
+   - **OCSP**: Online Certificate Status Protocol, real-time status queries.
+
+5. **Key Archival / Recovery**
+   - Securely store private keys for:
+     - Email encryption recovery.
+     - Digital documents signed in the past.
+
+---
+
+## 3. Types of Certificates
+- **SSL/TLS certificates** – secure websites.
+- **Code signing certificates** – verify software authenticity.
+- **Email (S/MIME) certificates** – secure and authenticate email.
+- **Client authentication certificates** – authenticate users/devices on networks.
+
+---
+
+## 4. Trust Models
+- **Hierarchical Trust Model** (Tree): Root → Intermediate → End-Entity.
+- **Mesh/P2P Trust Model**: Certificate exchange among peers.
+- **Web of Trust**: users vouch for each other (e.g., PGP).
+
+---
+
+## 5. Asymmetric Encryption Basics
+- **Private key**: kept secret.
+- **Public key**: freely distributed.
+- Data encrypted with a public key can only be decrypted with its private key.
+- Signatures: created with private key; verified with public key.
+
+---
+
+## 6. Certificate Lifecycle
+1. Key generation (private + public)
+2. Certificate signing request (CSR)
+3. Identity verification
+4. CA issues signed certificate
+5. Deployment to users/services
+6. Manage revocation (CRL/OCSP)
+7. Renewal or deprecation on expiry
+
+---
+
+## 7. Best Practices & Considerations
+- Keep your **Root CA offline** and heavily secured.
+- Use **Intermediate CAs** for day-to-day issuance.
+- Regularly **back up keys** (especially private keys).
+- Implement strong **revocation mechanisms**.
+- Use secure **cryptographic algorithms**.
+- Maintain **certificate transparency and monitoring** to detect misissuance.
+
+---
+
+## 8. Key Use Cases in Enterprises
+- Securing websites (HTTPS)
+- Email encryption and signing
+- Authenticating devices/users
+- Signing software code
+- Internal VPNs and network segmentation
+
+---
+
+## 9. Table
+
+| Component            | Purpose                                              |
+|----------------------|------------------------------------------------------|
+| CA / Root CA         | Issue and sign certificates                         |
+| RA                   | Validate identities before issuing certs             |
+| CRL / OCSP           | Check certificate revocation status                 |
+| Cert Database/Store | Keep track and store certificates                    |
+| Key Recovery         | Allow retrieval of encrypted data if lost           |
+
+---
 
